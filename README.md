@@ -13,6 +13,6 @@
 
 4.4内核源码：https://github.com/vb1980/Padavan-KVR   （尚未测试，后果自负）
 
-点击右上角的 Star 星星按钮即可开始自动编译
+点击右上角的 Star 星星按钮即可开始自动编译，编译出来的可以在Actions的Artifacts里找Padavan-packages。
 
 感谢以上所有大佬！

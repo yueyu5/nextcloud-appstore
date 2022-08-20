@@ -9,9 +9,9 @@
 # 云编译
 基于chongshengB的云编译脚本
 
-3.4内核源码：https://github.com/keke1023/Padavan（已测试没问题，2022-08-15编译的版本发在恩山）
+3.4内核源码：https://github.com/keke1023/Padavan  （已测试没问题，2022-08-15编译的版本发在恩山）
 
-4.4内核源码：https://github.com/vb1980/Padavan-KVR （尚未测试，后果自负）
+4.4内核源码：https://github.com/vb1980/Padavan-KVR   （尚未测试，后果自负）
 
 点击右上角的 Star 星星按钮即可开始自动编译
 

@@ -1,5 +1,5 @@
 #修改TNAME: K2P 中的K2P为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同
-name: Build RM2100
+name: Build K2P
 
 on: 
   release:
@@ -44,7 +44,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: RM2100
+        TNAME: K2P
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
@@ -52,6 +52,7 @@ jobs:
         echo "configs/templates/$TNAME.config not found "
         exit 1
         fi
+        sed -i '898,899d' user/rc/net.c
         cp -f configs/templates/$TNAME.config .config
         sed -i 's/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=n/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=y/g' .config
         ################################################################################################

@@ -133,6 +133,7 @@ jobs:
         sudo ./build_firmware_modify $TNAME 0
         sudo mv -f images/*.trx /opt/images/
         sudo mv -f user/smartdns/smartdns-Release37.2/src/smartdns /opt/images/
+        sudo mv -f user/adguardhome/* /opt/images/
     - name : Upload packages
       uses: actions/upload-artifact@master
       if: always()

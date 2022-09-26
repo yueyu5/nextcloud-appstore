@@ -1,5 +1,3 @@
-dnsmasq、ipset、iptable、smartdns均改为通过下载源码编译，可在对应Makefile中更改版本。均为2022.09.26最新版本。
-
 # 固件说明
 自用K2P与CR660x支持kvr组网的Padavan固件，已测试两者的kvr组网没问题，在iPhone上漫游丢包等可以接受，微信语音不会断开。
 

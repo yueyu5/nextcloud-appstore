@@ -26,7 +26,6 @@ jobs:
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
-        sudo date -s 2016-08-20
         sudo apt-get update
         sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
         cpio git python-docutils gettext automake autopoint texinfo build-essential help2man \
@@ -48,6 +47,7 @@ jobs:
         TNAME: K2P
         KERNEL: 3.4
       run: |
+        sudo date -s 2016-08-20
         cd /opt/rt-n56u/trunk
         unzip -o ./user/ipset.zip -d ./user/ipset
         sudo chmod +x ./user/ipset/ipset-6.x/autogen.sh

@@ -32,7 +32,7 @@ jobs:
         sudo sed -i 's/-Wstrict-prototypes//g'  /lib/modules/5.15.0-1020-azure/build/Makefile        
         cat /lib/modules/5.15.0-1020-azure/build/Makefile
         #uname
-        exit(0)
+        #exit(0)
         sudo apt-get update
         sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
         cpio git python-docutils gettext automake autopoint texinfo build-essential help2man \

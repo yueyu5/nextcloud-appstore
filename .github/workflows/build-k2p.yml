@@ -50,9 +50,9 @@ jobs:
         cd /opt/rt-n56u/trunk
         #编译ipset会出现warning: function declaration isn’t a prototype，是因为ubuntu严格编译将警告定为错误。
         #-Werror=strict-prototypes，将其从内核源码编译中去除
-        #sudo sed -i 's/-Werror=strict-prototypes//g'  ./linux-3.4.x/Makefile
-        #sudo sed -i 's/-Wstrict-prototypes//g'  ./linux-3.4.x/Makefile
-        #sed -i '680d' ./linux-3.4.x/Makefile
+        sudo sed -i 's/-Werror=strict-prototypes//g'  ./linux-3.4.x/Makefile
+        sudo sed -i 's/-Wstrict-prototypes//g'  ./linux-3.4.x/Makefile
+        sed -i '680d' ./linux-3.4.x/Makefile
         
         if [ ! -f configs/templates/$TNAME.config ] ; then
         echo "configs/templates/$TNAME.config not found "

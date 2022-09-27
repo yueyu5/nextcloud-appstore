@@ -26,11 +26,11 @@ jobs:
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
+        #编译ipset会出现warning: function declaration isn’t a prototype，是因为ubuntu严格编译将警告定为错误。
+        #-Werror=strict-prototypes，将其从内核源码编译中去除
         sudo ls /lib/modules/5.15.0-1020-azure/build
-        cat /lib/modules/5.15.0-1020-azure/build/Makefile
         sudo sed -i 's/-Werror=strict-prototypes//g'  /lib/modules/5.15.0-1020-azure/build/Makefile
-        sudo sed -i 's/-Wstrict-prototypes//g'  /lib/modules/5.15.0-1020-azure/build/Makefile        
-        cat /lib/modules/5.15.0-1020-azure/build/Makefile
+        sudo sed -i 's/-Wstrict-prototypes//g'  /lib/modules/5.15.0-1020-azure/build/Makefile
         #uname
         #exit(0)
         sudo apt-get update

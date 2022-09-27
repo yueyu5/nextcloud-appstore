@@ -26,15 +26,16 @@ jobs:
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
-        sudo ls /lib/modules
-        uname
-        exit(0)
+        sudo ls /lib/modules/5.15.0-1020-azure/build
+        #uname
+        #exit(0)
         sudo apt-get update
         sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
         cpio git python-docutils gettext automake autopoint texinfo build-essential help2man \
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
         sudo apt-get -y install autoconf automake libtool libmnl-dev
         sudo apt-get -y install linux-kernel-headers kernel-package
+        sudo sed -i 's/-Werror=strict-prototypes//g'  /lib/modules/5.15.0-1020-azure/build/Makefile
     - name: Clone source code
       env:
         KERNEL: 3.4

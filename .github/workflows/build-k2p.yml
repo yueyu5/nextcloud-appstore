@@ -47,10 +47,10 @@ jobs:
         TNAME: K2P
         KERNEL: 3.4
       run: |
-        sudo date -s 2016-08-20
         cd /opt/rt-n56u/trunk
         unzip -o ./user/ipset.zip -d ./user/ipset
         sudo chmod +x ./user/ipset/ipset-6.x/autogen.sh
+        sudo find ./user/ipset/ -type f |xargs touch
         #编译ipset会出现warning: function declaration isn’t a prototype，是因为ubuntu严格编译将警告定为错误。
         #-Werror=strict-prototypes，将其从内核源码编译中去除
         #sudo sed -i 's/-Werror=strict-prototypes//g'  ./linux-3.4.x/Makefile

@@ -48,7 +48,7 @@ jobs:
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
-        unzip -o ipset.zip -d ./user/ipset
+        unzip -o ./user/ipset.zip -d ./user/ipset
         #编译ipset会出现warning: function declaration isn’t a prototype，是因为ubuntu严格编译将警告定为错误。
         #-Werror=strict-prototypes，将其从内核源码编译中去除
         #sudo sed -i 's/-Werror=strict-prototypes//g'  ./linux-3.4.x/Makefile

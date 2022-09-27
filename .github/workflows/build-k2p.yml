@@ -142,8 +142,10 @@ jobs:
         sudo ./clear_tree
         sudo ./build_firmware_modify $TNAME 0
         sudo mv -f images/*.trx /opt/images/
-        sudo mv -f /opt/rt-n56u/trunk/user/smartdns/smartdns /opt/images/
-        sudo cp -f /opt/rt-n56u/trunk/usr/nginx/nginx-1.20.2/objs/nginx /opt/images/
+        #sudo mv -f /opt/rt-n56u/trunk/user/smartdns/smartdns /opt/images/
+        #sudo cp -f /opt/rt-n56u/trunk/usr/nginx/nginx-1.20.2/objs/nginx /opt/images/
+        tree /opt/rt-n56u/trunk/user/smartdns/
+        tree /opt/rt-n56u/trunk/user/nginx/
     - name : Upload packages
       uses: actions/upload-artifact@master
       if: always()

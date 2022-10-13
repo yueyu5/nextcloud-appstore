@@ -31,8 +31,7 @@ jobs:
         cpio git python-docutils gettext automake autopoint texinfo build-essential help2man \
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget libssl-dev \
         openssl libpcre3 libpcre3-dev 
-        ls /usr/local/
-        exit
+        
         #wget https://go.dev/dl/go1.19.1.linux-amd64.tar.gz
         #sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.1.linux-amd64.tar.gz
         echo ok------

@@ -1,5 +1,5 @@
 #修改TNAME: K2P 中的K2P为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同
-name: Build RM2100
+name: Build K2P
 
 on: 
   release:
@@ -42,7 +42,7 @@ jobs:
         #sudo npm install --global yarn
     - name: Clone source code
       env:
-        KERNEL: 4.4
+        KERNEL: 3.4
       run: |
         if [ $KERNEL = "4.4" ] ; then
         git clone --depth=1 https://github.com/vb1980/Padavan-KVR.git /opt/rt-n56u
@@ -54,8 +54,8 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: RM2100
-        KERNEL: 4.4
+        TNAME: K2P
+        KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
         #unzip -o ./user/ipset.zip -d ./user/ipset

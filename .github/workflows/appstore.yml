@@ -12,7 +12,10 @@ on:
 #    - cron: 0 8 * * 5
   watch:
     types: [started]
-
+    
+permissions:
+  contents: write  # 允许写入仓库
+  
 jobs:
   download-and-publish:
     runs-on: ubuntu-latest

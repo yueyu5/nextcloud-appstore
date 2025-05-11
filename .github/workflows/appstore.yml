@@ -14,26 +14,27 @@ on:
     types: [started]
 
 jobs:
-  build:
-    runs-on: ubuntu-24.04
-    if: github.event.repository.owner.id == github.event.sender.id
+  download-and-publish:
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
-    - name: Initialization environment
-      env:
-        DEBIAN_FRONTEND: noninteractive
+    # 步骤1：检出仓库代码
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 步骤2：下载文件（替换为你的URL和路径）
+    - name: Download file
       run: |
-        sudo apt-get -y install wget
-    - name: Clone source code
-      run: |
-        wget https://apps.nextcloud.com/api/v1/apps.json
-        mkdir -p /opt/images/
-        sudo mv -f apps.json /opt/images/
-    - name : Upload packages
-      uses: actions/upload-artifact@master
-      if: always()
+        curl -s -o apps.json https://apps.nextcloud.com/api/v1/apps.json
+        # 或使用 wget：
+        # wget -q -O files/data.txt https://example.com/your-file.txt
+
+    # 步骤3：自动提交更改
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        name: json-packages
-        path: /opt/images
+        commit_message: 'Auto-update data file'
+        file_pattern: apps.json  # 监控指定文件变化
+        commit_user_name: GitHub Actions
+        commit_user_email: actions@github.com
+

@@ -3,4 +3,4 @@
 
 nextcloud中config.php加入：
 
-'appstoreurl' => 'https://raw.githubusercontent.com/yueyu5/nextcloud-appstore/refs/heads/master',
+'appstoreurl' => 'https://raw.githubusercontent.com/yueyu5/nextcloud-appstore/master',

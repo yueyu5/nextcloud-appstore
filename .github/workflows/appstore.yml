@@ -21,6 +21,7 @@ jobs:
     - name: Download file
       run: |
         curl -s -o apps.json https://apps.nextcloud.com/api/v1/apps.json
+        curl -s -o discover.json https://apps.nextcloud.com/api/v1/discover.json
         # 或使用 wget：
         # wget -q -O files/data.txt https://example.com/your-file.txt
 
@@ -29,7 +30,9 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: 'Auto-update data file'
-        file_pattern: apps.json  # 监控指定文件变化
+        file_pattern: |
+          apps.json,  # 监控指定文件变化
+          discover.json
         commit_user_name: GitHub Actions
         commit_user_email: actions@github.com
 

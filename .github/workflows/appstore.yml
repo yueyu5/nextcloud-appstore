@@ -1,17 +1,9 @@
 name: clone appstore json
 
-on: 
-  release:
-    types: [published]
-  push:
-    tags:
-    - 'v*'
-  #  branches: 
-  #    - master
-#  schedule:
-#    - cron: 0 8 * * 5
-  watch:
-    types: [started]
+on:
+  schedule:
+    # 每天 UTC 时间 2:00 运行（北京时间10:00）
+    - cron: '0 12 * * *'
     
 permissions:
   contents: write  # 允许写入仓库

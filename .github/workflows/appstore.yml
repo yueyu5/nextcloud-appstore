@@ -32,10 +32,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: 'Auto-update data file'
-        file_pattern: |
-          discover.json
-          apps.json
-          categories.json
+        file_pattern: categories.json discover.json apps.json
         commit_user_name: GitHub Actions
         commit_user_email: actions@github.com
 

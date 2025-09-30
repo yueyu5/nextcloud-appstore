@@ -1,7 +1,7 @@
 [
 	{
 		"type": "post",
-		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83bcdchub10",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83bcdc88",
 		"order": 0,
 		"date": "2024-09-23T00:00:00Z",
 		"media": {
@@ -20,31 +20,31 @@
 	},
 	{
 		"type": "post",
-		"id": "1od1a08e-asdd-49b3-ad1b-ff2e83bcdc88-hub10",
+		"id": "1od1a08e-asdd-49b3-ad1b-ff2e83bcdc88-2",
 		"order": 1,
 		"headline": {
-			"en": "Nextcloud Hub 10 - your unified, modular digital workspace"
+			"en": "Nextcloud Hub 25 Autumn: Your digital workspace, ready in no time"
 		},
 		"text": {
-			"en": "Welcome Nextcloud Hub 10 - reinforced performance, deeper integration, and dozens of new features that will make your day easier!"
+			"en": "Nextcloud Hub 25 Autumn makes it easy to get started with powerful collaboration while in control of your data. Discover our latest release."
 		},
-		"link": "https://nextcloud.com/blog/nextcloud-hub10/?utm_source=appstore_discover_section_top_section",
+		"link": "https://nextcloud.com/blog/nextcloud-hub25-autumn/?utm_source=appstore_discover_section_top_section",
 		"media": {
 			"alignment": "start",
 			"content": {
 				"en": {
 					"src": {
-						"src": "https://nextcloud.com/c/uploads/2025/02/Nextcloud-Hub-10-featured-image.png",
+						"src": "https://nextcloud.com/c/uploads/2025/09/Nextcloud-Hub25Autumn-featured-image.png",
 						"mime": "image/png"
 					},
-					"alt": "Nextcloud Hub 10 - your unified, modular digital workspace"
+					"alt": "Nextcloud Hub 25 Autumn: Your digital workspace, ready in no time"
 				}
 			}
 		}
 	},
 	{
 		"type": "carousel",
-		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83bee-hub10",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83beee6",
 		"headline": {
 			"en": "Do you already know this app?",
 			"de": "Kennst du bereits diese App?",
@@ -99,7 +99,7 @@
 	},
 	{
 		"type": "showcase",
-		"id": "1d41a08e-4fdsfs6-49b3-ad1b-ff2e83bcdf-hub10",
+		"id": "1d41a08e-4fdsfs6-49b3-ad1b-ff2e83bcdf96",
 		"headline": {
 			"en": "Best rated apps",
 			"de": "Am besten bewertete Apps",
@@ -138,7 +138,7 @@
 	},
 	{
 		"type": "carousel",
-		"id": "1d41a08e-4aa6-49b3-ad1b-ff2eeebcd-hub10",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2eeebcdf96",
 		"headline": {
 			"en": "News from Nextcloud",
 			"de": "Neuigkeiten über Nextcloud",
@@ -147,118 +147,77 @@
 		"content": [
 			{
 				"type": "post",
-				"id": "1d41a08e-4aa6-49b4-ad1b-ff2efffe-hub10",
+				"id": "1od1a08e-asdd-49b3-ad1b-ff2e83bcdc88-2",
+				"order": 1,
 				"headline": {
-					"en": "Nextcloud Hub 10 - your unified, modular digital workspace"
+					"en": "Nextcloud Hub 25 Autumn: Your digital workspace, ready in no time"
 				},
 				"text": {
-					"en": "Welcome Nextcloud Hub 10 - reinforced performance, deeper integration, and dozens of new features that will make your day easier!"
+					"en": "Nextcloud Hub 25 Autumn makes it easy to get started with powerful collaboration while in control of your data. Discover our latest release."
 				},
+				"link": "https://nextcloud.com/blog/nextcloud-hub25-autumn/?utm_source=appstore_discover_section_top_section",
 				"media": {
 					"alignment": "start",
 					"content": {
 						"en": {
 							"src": {
-								"src": "https://nextcloud.com/c/uploads/2025/02/Nextcloud-Hub-10-featured-image.png",
+								"src": "https://nextcloud.com/c/uploads/2025/09/Nextcloud-Hub25Autumn-featured-image.png",
 								"mime": "image/png"
 							},
-							"alt": "Nextcloud Hub 10 - your unified, modular digital workspace"
+							"alt": "Nextcloud Hub 25 Autumn: Your digital workspace, ready in no time"
 						}
 					}
-				},
-				"link": "https://nextcloud.com/blog/nextcloud-hub10/?utm_source=appstore_discover_section_carousel"
+				}
 			},
-			{
-				"type": "post",
-				"id": "1d12308e-4aa6-49b4-ee1b-ff2cccc-hub10",
-				"headline": {
-					"en": "Open source and Nextcloud in government: Insights from Sven Thomsen, Schleswig-Holstein’s CIO"
-				},
-				"text": {
-					"en": "In this episode, we explore how open source solutions are revolutionizing the way governments work, from collaboration and knowledge sharing to digital sovereignty and artificial intelligence. Sven shares the factors that influenced their decision to adopt open source solutions, their implementation strategies along the way, and lessons learned from the adoption of open source in Munich."
-				},
-				"media": {
-					"alignment": "start",
-					"content": {
-						"en": {
-							"src": {
-								"src": "https://nextcloud.com/c/uploads/2024/10/Nextcloud-podcast-Open-source-government-Schleswig-Holstein.png",
-								"mime": "image/png"
-							},
-							"alt": "Open source and Nextcloud in government: Insights from Sven Thomsen, Schleswig-Holstein’s CIO"
-						}
-					}
-				},
-				"link": "https://nextcloud.com/blog/nextcloud-in-government-insights-from-sven-thomsen-schleswig-holsteins-cio/?utm_source=appstore_discover_section_carousel"
-			},
+
+
 			{
 				"type": "post",
 				"id": "1d41a08e-4aa6-49b4-bb1b-fddddbcdc96",
 				"headline": {
-					"en": "Nextcloud powering the digital workspace of tomorrow: 2024 in review"
+					"en": "Digital Sovereignty Index: How countries compare in digital independence"
 				},
 				"text": {
-					"en": "In Nextcloud 2024 wrap-up, join us to celebrate what we accomplished together this year: growth, innovation, breakthroughs, awards and more."
+					"en": "The debate around digital sovereignty has gained momentum. We show how countries compare in digital independence."
 				},
 				"media": {
 					"alignment": "start",
 					"content": {
 						"en": {
 							"src": {
-								"src": "https://nextcloud.com/c/uploads/2024/12/Nextcloud-powering-the-digital-workspace-of-tomorrow-2024-in-review.png",
+								"src": "https://nextcloud.com/c/uploads/2025/08/Nextcloud-Digital-Sovereignty-Index.png",
 								"mime": "image/png"
 							},
-							"alt": "Nextcloud powering the digital workspace of tomorrow: 2024 in review"
+							"alt": "Digital Sovereignty Index: How countries compare in digital independence"
 						}
 					}
 				},
-				"link": "https://nextcloud.com/blog/nextcloud-2024-wrap-up/?utm_source=appstore_discover_section_carousel"
+				"link": "https://nextcloud.com/blog/digital-sovereignty-index-how-countries-compare-in-digital-independence/?utm_source=appstore_discover_section_carousel"
 			},
+
+
 			{
 				"type": "post",
-				"id": "1d12308e-4aa6-49b4-ee1b-ff2cccccdc96-2",
+				"id": "1d12308e-4aa6-49b4-ee1b-ff2cccccdc96",
 				"headline": {
-					"en": "Federation: a foundational concept for digital sovereignty"
+					"en": "Owning your data: The open source path with Nextcloud and MariaDB"
 				},
 				"text": {
-					"en": "Learn how federation features in self-hosted apps work and how federation can help businesses and governments achieve digital sovereignty."
+					"en": "Anna Widenius and Michael &quot;Monty&quot; Widenius help us unpack the challenges of open source, vendor lock-in, and owning your data."
 				},
 				"media": {
 					"alignment": "start",
 					"content": {
 						"en": {
 							"src": {
-								"src": "https://nextcloud.com/c/uploads/2024/10/Federation-a-foundational-concept-for-digital-sovereignty-1024x576.png",
+								"src": "https://nextcloud.com/c/uploads/2025/08/Nextcloud-Podcast-030.png",
 								"mime": "image/png"
 							},
-							"alt": "Federation: a foundational concept for digital sovereignty"
+							"alt": "Owning your data: The open source path with Nextcloud and MariaDB"
 						}
 					}
 				},
-				"link": "https://nextcloud.com/blog/federation-a-foundational-concept-for-digital-sovereignty/?utm_source=appstore_discover_section_carousel"
-			},
-			{
-				"type": "post",
-				"id": "1d12308e-4aa6-49b4-ee1b-ff2cccccdc96-3",
-				"headline": {
-					"en": "Empowering through open source: Nextcloud's Director of Engineering Andy Scherzinger"
-				},
-				"text": {
-					"en": "From Andy's approach to problem-solving and guiding others to his personal values that give him direction, this episode is a must-listen for anyone interested in the intersection of technology, community, and personal growth."
-				},
-				"media": {
-					"alignment": "start",
-					"content": {
-						"en": {
-							"src": {
-								"src": "https://nextcloud.com/c/uploads/2024/12/Nextcloud-Podcast-Andy-Scherzinger-Featured-Image-1.png",
-								"mime": "image/png"
-							},
-							"alt": "Empowering through open source: Nextcloud's Director of Engineering Andy Scherzinger"
-						}
-					}
-				},
-				"link": "https://nextcloud.com/blog/empowering-through-open-source-nextclouds-director-of-engineering-andy-scherzinger/?utm_source=appstore_discover_section_carousel"
+				"link": "https://nextcloud.com/blog/owning-your-data-the-open-source-path-with-nextcloud-and-mariadb/?utm_source=appstore_discover_section_carousel"
 			}
 		]
 	}

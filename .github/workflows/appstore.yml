@@ -21,9 +21,9 @@ jobs:
     # 步骤2：下载文件（替换为你的URL和路径）
     - name: Download file
       run: |
-        curl -s -o apps.json https://apps.nextcloud.com/api/v1/apps.json
-        curl -s -o discover.json https://apps.nextcloud.com/api/v1/discover.json
-        curl -s -o categories.json https://apps.nextcloud.com/api/v1/categories.json
+        wget -q -O apps.json https://apps.nextcloud.com/api/v1/apps.json
+        wget -q -O discover.json https://apps.nextcloud.com/api/v1/discover.json
+        wget -q -O categories.json https://apps.nextcloud.com/api/v1/categories.json
         # 或使用 wget：
         # wget -q -O files/data.txt https://example.com/your-file.txt
 

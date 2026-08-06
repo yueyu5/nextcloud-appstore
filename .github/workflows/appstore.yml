@@ -31,9 +31,9 @@ jobs:
     # 步骤3：使用github镜像源加速应用下载链接
     - name: Replace github.com with github mirror in the JSON file
       run: |
-        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' > apps.json
-        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' > discover.json
-        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' > appapi_apps.json
+        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' apps.json
+        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' discover.json
+        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' appapi_apps.json
         
     # 步骤4：自动提交更改
     - name: Commit and push changes

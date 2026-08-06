@@ -1,0 +1,278 @@
+[
+	{
+		"type": "post",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83bcdc88",
+		"order": 0,
+		"date": "2024-09-23T00:00:00Z",
+		"media": {
+			"alignment": "center",
+			"content": {
+				"en": {
+					"src": [
+						{ "src": "https://v6.gh-proxy.org/https://github.com/nextcloud/firstrunwizard/raw/refs/tags/v32.0.0/img/Nextcloud.webm", "mime": "video/webm"},
+						{ "src": "https://v6.gh-proxy.org/https://github.com/nextcloud/firstrunwizard/raw/refs/tags/v32.0.0/img/Nextcloud.mp4", "mime": "video/mp4"}
+					],
+					"alt": "Welcome to Nextcloud Hub",
+					"link": "https://nextcloud.com/blog/"
+				}
+			}
+		}
+	},
+	{
+		"type": "post",
+		"id": "a7f3c92b-d4e1-48f7-bc2a-113e92fade01-7",
+		"order": 1,
+		"headline": {
+			"en": "Nextcloud Hub 26 Spring: Built together, designed for the future"
+		},
+		"text": {
+			"en": "Today we present Nextcloud Hub 26 Spring, our anniversary release. It gives you even more choice for your tools, a refined UI, stress-free collaboration, and the new platform strategy that enables developers to benefit more from our vast ecosystem. Built together, designed for the future."
+		},
+		"link": "https://nextcloud.com/blog/nextcloud-hub26-spring/?utm_source=appstore_discover_section_top_section",
+		"media": {
+			"alignment": "start",
+			"content": {
+				"en": {
+					"src": {
+						"src": "https://nextcloud.com/c/uploads/2026/05/Nextcloud-Hub26-Spring-featured-image.png",
+						"mime": "image/png"
+					},
+					"alt": "Nextcloud Hub 26 Spring: Built together, designed for the future"
+				}
+			}
+		}
+	},
+	{
+		"type": "carousel",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83beee6",
+		"headline": {
+			"en": "Do you already know this app?",
+			"de": "Kennst du bereits diese App?",
+			"fr": "Connaissez-vous déjà cette application?"
+		},
+		"content": [
+			{
+				"type": "post",
+				"id": "app-weekplanner",
+				"headline": {
+					"en": "Week Planner"
+				},
+				"text": {
+					"en": "A simple weekly planner inspired by Tweek, living right inside your Nextcloud. Easy planning with full control over your data."
+				},
+				"link": "app://weekplanner"
+			},
+			{
+				"type": "post",
+				"id": "app-linkboard",
+				"headline": {
+					"en": "Linkboard"
+				},
+				"text": {
+					"en": "Customizable service dashboard to organize your services in categories, monitor status, and access everything from Nextcloud."
+				},
+				"link": "app://linkboard"
+			},
+			{
+				"type": "post",
+				"id": "app-pantry",
+				"headline": {
+					"en": "Pantry"
+				},
+				"text": {
+					"en": "Household management app to keep your house organized collaboratively with checklists, photo boards, notes and more."
+				},
+				"link": "app://pantry"
+			},
+			{
+				"type": "post",
+				"id": "app-mastermind",
+				"headline": {
+					"en": "Mastermind"
+				},
+				"text": {
+					"en": "Nextcloud version of the popular game Mastermind, where you have to crack a code consisting of five colors within a fixed number of turns."
+				},
+				"link": "app://mastermind"
+			}
+		]
+	},
+	{
+		"type": "showcase",
+		"id": "1d41a08e-4fdsfs6-49b3-ad1b-ff2e83bcdf96",
+		"headline": {
+			"en": "Best rated apps",
+			"de": "Am besten bewertete Apps",
+			"fr": "Applications les mieux notées"
+		},
+		"content": [
+			{
+				"type": "app",
+				"appId": "richdocuments"
+			},
+			{
+				"type": "app",
+				"appId": "whiteboard"
+			},
+			{
+				"type": "app",
+				"appId": "cospend"
+			},
+			{
+				"type": "app",
+				"appId": "cookbook"
+			},
+			{
+				"type": "app",
+				"appId": "gpxpod"
+			},
+			{
+				"type": "app",
+				"appId": "memories"
+			},
+			{
+				"type": "app",
+				"appId": "drawio"
+			}
+		]
+	},
+	{
+		"type": "carousel",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2eeebcdf96",
+		"headline": {
+			"en": "News from Nextcloud",
+			"de": "Neuigkeiten über Nextcloud",
+			"fr": "Actualités de Nextcloud"
+		},
+		"content": [
+			{
+				"type": "post",
+				"id": "a7f3c92b-d4e1-48f7-bc2a-113e92fade01-7",
+				"order": 1,
+				"headline": {
+					"en": "Nextcloud Hub 26 Spring: Built together, designed for the future"
+				},
+				"text": {
+					"en": "Today we present Nextcloud Hub 26 Spring, our anniversary release. It gives you even more choice for your tools, a refined UI, stress-free collaboration, and the new platform strategy that enables developers to benefit more from our vast ecosystem. Built together, designed for the future."
+				},
+				"link": "https://nextcloud.com/blog/nextcloud-hub26-spring/?utm_source=appstore_discover_section_top_section",
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/05/Nextcloud-Hub26-Spring-featured-image.png",
+								"mime": "image/png"
+							},
+							"alt": "Nextcloud Hub 26 Spring: Built together, designed for the future"
+						}
+					}
+				}
+			},
+
+
+			{
+				"type": "post",
+				"id": "3b8e21fd-c509-4a1e-d73f-882bc4e1a057-4",
+				"headline": {
+					"en": "Vote for Nextcloud in the CloudComputing-Insider Award 2026"
+				},
+				"text": {
+					"en": "Is Nextcloud your top choice as cloud content management solution? Vote for us in the CloudComputing-Insider Award 2026 and show your support!"
+				},
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/04/blog-featured-image-vote-for-nextcloud-cloudcomputing-insider-award-2026.png",
+								"mime": "image/png"
+							},
+							"alt": "Vote for Nextcloud in the CloudComputing-Insider Award 2026"
+						}
+					}
+				},
+				"link": "https://nextcloud.com/blog/vote-for-nextcloud-in-the-cloudcomputing-insider-it-awards-2026/?utm_source=appstore_discover_section_carousel"
+			},
+
+
+			{
+				"type": "post",
+				"id": "5d1f8b2a-e743-47c9-b6e4-991af3dc2e05-3",
+				"headline": {
+					"en": "Nextcloud Community Conference 2026: Call for speakers"
+				},
+				"text": {
+					"en": "Passionate about data privacy and Nextcloud? We invite you speak at the Nextcloud Community Conference to share your experience, knowledge and news with the community!"
+				},
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/05/Community-Conference_Call-for-speakers.jpg",
+								"mime": "image/png"
+							},
+							"alt": "Nextcloud Community Conference 2026: Call for speakers"
+						}
+					}
+				},
+				"link": "https://nextcloud.com/blog/nextcloud-conference-2026-call-for-speakers/?utm_source=appstore_discover_section_carousel"
+			},
+			
+
+			{
+				"type": "post",
+				"id": "f92a7c3e-1bd4-4e8b-a521-cc3d74f0e819-6",
+				"headline": {
+					"en": "How working with multiple vendors is hurting your organization: The impact of vendor sprawl"
+				},
+				"text": {
+					"en": "Too many SaaS tools? Vendor sprawl is hurting your organization because of audit fatigue, data sprawl, and transparency risks. Learn how to take back control."
+				},
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/04/blog-featured-image-how-working-with-multiple-vendors-is-hurting-your-organization-the-impact-of-vendor-sprawl.png",
+								"mime": "image/png"
+							},
+							"alt": "How working with multiple vendors is hurting your organization: The impact of vendor sprawl"
+						}
+					}
+				},
+				"link": "https://nextcloud.com/blog/how-working-with-multiple-vendors-is-hurting-your-organization-the-impact-of-vendor-sprawl/?utm_source=appstore_discover_section_carousel"
+			},
+			
+			
+			{
+				"type": "post",
+				"id": "c4e6a91d-b238-4f7b-8d5a-776e20cb1f43-9",
+				"headline": {
+					"en": "How digital sovereignty is accelerating: millions of new enterprise users and over 50% growth for Nextcloud"
+				},
+				"text": {
+					"en": "Explore how millions of new users and rapid growth are driving adoption of open, secure collaboration platforms like Nextcloud."
+				},
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/03/blog-post-featured-image-how-digital-sovereignty-is-accelerating-millions-of-new-enterprise-users-and-over-50-growth-for-nextcloud.png",
+								"mime": "image/png"
+							},
+							"alt": "How digital sovereignty is accelerating: millions of new enterprise users and over 50% growth for Nextcloud"
+						}
+					}
+				},
+				"link": "https://nextcloud.com/blog/digital-sovereignty-gains-momentum-millions-of-new-enterprise-users/?utm_source=appstore_discover_section_carousel"
+			}
+			
+			
+			
+			
+		]
+	}
+]

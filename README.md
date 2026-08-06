@@ -5,7 +5,7 @@
 因Nextcloud AppStroe访问慢，在此每日定时更新https://apps.nextcloud.com/api/v1/。
 
 ## 使用方法
-**nextcloud中config.php加入：
+**nextcloud中`config.php`加入**
   ```php
   'appstoreurl' => 'https://github.com/yueyu5/nextcloud-appstore/blob/master/api/v1/',
   ```

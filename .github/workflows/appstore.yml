@@ -16,7 +16,7 @@ jobs:
     steps:
     # 步骤1：检出仓库代码
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     # 步骤2：下载文件（替换为你的URL和路径）
     - name: Download file
@@ -37,10 +37,10 @@ jobs:
         
     # 步骤4：自动提交更改
     - name: Commit and push changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: 'Auto-update data file'
-        file_pattern: categories.json discover.json apps.json
+        file_pattern: categories.json discover.json apps.json appapi_apps.json
         commit_user_name: GitHub Actions
         commit_user_email: actions@github.com
 

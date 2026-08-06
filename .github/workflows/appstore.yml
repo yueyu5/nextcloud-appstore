@@ -18,29 +18,28 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v6
 
-    # 步骤2：下载文件（替换为你的URL和路径）
-    - name: Download file
+    # 步骤2：下载文件到 /api/v1/
+    - name: Download files
       run: |
-        wget -q -O apps.json https://apps.nextcloud.com/api/v1/apps.json
-        wget -q -O discover.json https://apps.nextcloud.com/api/v1/discover.json
-        wget -q -O categories.json https://apps.nextcloud.com/api/v1/categories.json
-        wget -q -O appapi_apps.json https://apps.nextcloud.com/api/v1/appapi_apps.json
-        # 或使用 wget：
-        # wget -q -O files/data.txt https://example.com/your-file.txt
-   
-    # 步骤3：使用github镜像源加速应用下载链接
-    - name: Replace github.com with github mirror in the JSON file
+        mkdir -p api/v1
+        wget -q -O api/v1/apps.json https://apps.nextcloud.com/api/v1/apps.json
+        wget -q -O api/v1/discover.json https://apps.nextcloud.com/api/v1/discover.json
+        wget -q -O api/v1/categories.json https://apps.nextcloud.com/api/v1/categories.json
+        wget -q -O api/v1/appapi_apps.json https://apps.nextcloud.com/api/v1/appapi_apps.json
+
+    # 步骤3：替换 GitHub 镜像源
+    - name: Replace github.com with github mirror
       run: |
-        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' apps.json
-        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' discover.json
-        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' appapi_apps.json
-        
-    # 步骤4：自动提交更改
+        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' api/v1/apps.json
+        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' api/v1/discover.json
+        sed -i 's|github\.com|v6.gh-proxy.org/https://github.com|g' api/v1/appapi_apps.json
+
+    # 步骤4：提交更改
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: 'Auto-update data file'
-        file_pattern: categories.json discover.json apps.json appapi_apps.json
+        commit_message: '每日自动更新API v1'
+        file_pattern: api/v1/*.json
         commit_user_name: GitHub Actions
         commit_user_email: actions@github.com
 

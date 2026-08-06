@@ -24,7 +24,7 @@ jobs:
         wget -q -O apps.json https://apps.nextcloud.com/api/v1/apps.json
         wget -q -O discover.json https://apps.nextcloud.com/api/v1/discover.json
         wget -q -O categories.json https://apps.nextcloud.com/api/v1/categories.json
-        wget -q -O categories.json https://apps.nextcloud.com/api/v1/appapi_apps.json
+        wget -q -O appapi_apps.json https://apps.nextcloud.com/api/v1/appapi_apps.json
         # 或使用 wget：
         # wget -q -O files/data.txt https://example.com/your-file.txt
    

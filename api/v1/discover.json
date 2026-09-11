@@ -1,11 +1,278 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>503 Service Unavailable</title>
-</head><body>
-<h1>Service Unavailable</h1>
-<p>The server is temporarily unable to service your
-request due to maintenance downtime or capacity
-problems. Please try again later.</p>
-<hr>
-<address>Apache/2.4.58 (Ubuntu) Server at apps.nextcloud.com Port 80</address>
-</body></html>
+[
+	{
+		"type": "post",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83bcdc88",
+		"order": 0,
+		"date": "2024-09-23T00:00:00Z",
+		"media": {
+			"alignment": "center",
+			"content": {
+				"en": {
+					"src": [
+						{ "src": "https://v6.gh-proxy.org/https://github.com/nextcloud/screenshots/raw/69d23ccd05492f73e9f9824020c72df91e5c7bc0/nextcloud-hub-intro.webm", "mime": "video/webm"},
+						{ "src": "https://v6.gh-proxy.org/https://github.com/nextcloud/screenshots/raw/69d23ccd05492f73e9f9824020c72df91e5c7bc0/nextcloud-hub-intro.mp4", "mime": "video/mp4"}
+					],
+					"alt": "Welcome to Nextcloud Hub",
+					"link": "https://nextcloud.com/blog/"
+				}
+			}
+		}
+	},
+	{
+		"type": "post",
+		"id": "e2a9f14c-6b3d-47a8-91ef-2c7d5b8a934f-3",
+		"order": 1,
+		"headline": {
+			"en": "Nextcloud Hub 26 Summer: Autonomy for Teams, Office on desktop, a fresh take on Photos"
+		},
+		"text": {
+			"en": "Created in a joint effort of our team, community, and partners, Nextcloud Hub 26 Summer learns from real people using our tools every day. Create your team's own space with Nextcloud Teams, organize your memories in new Nextcloud Photos, and enjoy the updates you asked for across all apps. Read on for a full rundown of our latest release!"
+		},
+		"link": "https://nextcloud.com/blog/nextcloud-hub26-summer/?utm_source=appstore_discover_section_top_section",
+		"media": {
+			"alignment": "start",
+			"content": {
+				"en": {
+					"src": {
+						"src": "https://nextcloud.com/c/uploads/2026/09/Nextcloud-Hub-26-Summer-featured-image.png",
+						"mime": "image/png"
+					},
+					"alt": "Nextcloud Hub 26 Summer: Autonomy for Teams, Office on desktop, a fresh take on Photos"
+				}
+			}
+		}
+	},
+	{
+		"type": "carousel",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2e83beee6",
+		"headline": {
+			"en": "Do you already know this app?",
+			"de": "Kennst du bereits diese App?",
+			"fr": "Connaissez-vous déjà cette application?"
+		},
+		"content": [
+			{
+				"type": "post",
+				"id": "app-orchestration_gateway",
+				"headline": {
+					"en": "Orchestration Gateway"
+				},
+				"text": {
+					"en": "A Nextcloud app that provides an admin settings section to manage webhooks, enabling Nextcloud to trigger automations in external workflow orchestration services."
+				},
+				"link": "app://orchestration_gateway"
+			},
+			{
+				"type": "post",
+				"id": "app-integration_grist",
+				"headline": {
+					"en": "Grist Integration"
+				},
+				"text": {
+					"en": "The Grist integration connects Nextcloud to a self-hosted or vendor-hosted Grist account, providing a unified search provider and a smart picker component for documents."
+				},
+				"link": "app://integration_grist"
+			},
+			{
+				"type": "post",
+				"id": "app-integration_zulip",
+				"headline": {
+					"en": "Zulip Integration"
+				},
+				"text": {
+					"en": "This integration allows you to send Nextcloud files to your Zulip chat instance as uploaded files, public shared links, or internal shared links. the new version features dashboard widget showing recent or unread Zulip messages."
+				},
+				"link": "app://integration_zulip"
+			},
+			{
+				"type": "post",
+				"id": "app-mastermind",
+				"headline": {
+					"en": "Mastermind"
+				},
+				"text": {
+					"en": "Nextcloud version of the popular game Mastermind, where you have to crack a code consisting of five colors within a fixed number of turns."
+				},
+				"link": "app://mastermind"
+			}
+		]
+	},
+	{
+		"type": "showcase",
+		"id": "1d41a08e-4fdsfs6-49b3-ad1b-ff2e83bcdf96",
+		"headline": {
+			"en": "Best rated apps",
+			"de": "Am besten bewertete Apps",
+			"fr": "Applications les mieux notées"
+		},
+		"content": [
+			{
+				"type": "app",
+				"appId": "cospend"
+			},
+			{
+				"type": "app",
+				"appId": "countdown"
+			},
+			{
+				"type": "app",
+				"appId": "spreed"
+			},
+			{
+				"type": "app",
+				"appId": "notes"
+			},
+			{
+				"type": "app",
+				"appId": "files_downloadactivity"
+			},
+			{
+				"type": "app",
+				"appId": "music"
+			},
+			{
+				"type": "app",
+				"appId": "integration_immich"
+			}
+		]
+	},
+	{
+		"type": "carousel",
+		"id": "1d41a08e-4aa6-49b3-ad1b-ff2eeebcdf96",
+		"headline": {
+			"en": "News from Nextcloud",
+			"de": "Neuigkeiten über Nextcloud",
+			"fr": "Actualités de Nextcloud"
+		},
+		"content": [
+			{
+				"type": "post",
+				"id": "e2a9f14c-6b3d-47a8-91ef-2c7d5b8a934f-3",
+				"order": 1,
+				"headline": {
+					"en": "https://nextcloud.com/c/uploads/2026/09/Nextcloud-Hub-26-Summer-featured-image.png"
+				},
+				"text": {
+					"en": "Created in a joint effort of our team, community, and partners, Nextcloud Hub 26 Summer learns from real people using our tools every day. Create your team's own space with Nextcloud Teams, organize your memories in new Nextcloud Photos, and enjoy the updates you asked for across all apps. Read on for a full rundown of our latest release!"
+				},
+				"link": "https://nextcloud.com/blog/nextcloud-hub26-summer/?utm_source=appstore_discover_section_top_section",
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/09/Nextcloud-Hub-26-Summer-featured-image.png",
+								"mime": "image/png"
+							},
+							"alt": "https://nextcloud.com/c/uploads/2026/09/Nextcloud-Hub-26-Summer-featured-image.png"
+						}
+					}
+				}
+			},
+
+
+			{
+				"type": "post",
+				"id": "918c4d2a-7e5b-43f9-a02c-6f1d8e9b475a-9",
+				"headline": {
+					"en": "Anna Larch: Community management and DevRel at Nextcloud in the age of AI PRs"
+				},
+				"text": {
+					"en": "In this episode of the Nextcloud Podcast, we talk with Anna Larch, Developer Relations at Nextcloud, about her approach to community management, digital sovereignty, and the Nextcloud Community Awards."
+				},
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/08/anna-larch-podcast-featured-image-1.png",
+								"mime": "image/png"
+							},
+							"alt": "Anna Larch: Community management and DevRel at Nextcloud in the age of AI PRs"
+						}
+					}
+				},
+				"link": "https://nextcloud.com/blog/anna-larch-developer-relations/?utm_source=appstore_discover_section_carousel"
+			},
+
+
+			{
+				"type": "post",
+				"id": "b64f7a1e-3c9d-4b82-95a7-1e4c6d8f2093-1",
+				"headline": {
+					"en": "Nextcloud ISV Partner Program: connecting app developers with enterprises"
+				},
+				"text": {
+					"en": "We are introducing the Nextcloud ISV Partner Program to support independent app developers through the Nextcloud app store. Read more in this article and get in touch with our team if you want to join the program."
+				},
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/06/Nextcloud-ISV-Partner-Program-featured-image-1.png",
+								"mime": "image/png"
+							},
+							"alt": "Nextcloud ISV Partner Program: connecting app developers with enterprises"
+						}
+					}
+				},
+				"link": "https://nextcloud.com/blog/nextcloud-isv-partner-program-connecting-app-developers-with-enterprises/?utm_source=appstore_discover_section_carousel"
+			},
+			
+
+			{
+				"type": "post",
+				"id": "3d8a2c9f-5e17-4f6b-b3d4-9a7c1e6f0852-5",
+				"headline": {
+					"en": "How to set up UnifiedPush on Android for Nextcloud Talk: push notifications without Google Play Services"
+				},
+				"text": {
+					"en": "Want to receive notifications about new messages without relying on Google’s servers? We’ll show you how to set up UnifiedPush for Nextcloud Talk in three steps."
+				},
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/08/unifiedpush-android-talk-featured-image.png",
+								"mime": "image/png"
+							},
+							"alt": "How to set up UnifiedPush on Android for Nextcloud Talk: push notifications without Google Play Services"
+						}
+					}
+				},
+				"link": "https://nextcloud.com/blog/unifiedpush-android-nextcloud-talk/?utm_source=appstore_discover_section_carousel"
+			},
+			
+			
+			{
+				"type": "post",
+				"id": "f195e3b7-8a4c-4d21-9e6f-7b3d2a8c1f60-8",
+				"headline": {
+					"en": "Freedom of choice in Nextcloud Office: powered by Euro-Office, Collabora, and Thinkfree Office"
+				},
+				"text": {
+					"en": "Wondering which office suite you should choose for your Nextcloud? Learn more about the advantages of each option."
+				},
+				"media": {
+					"alignment": "start",
+					"content": {
+						"en": {
+							"src": {
+								"src": "https://nextcloud.com/c/uploads/2026/07/nextcloud-office-suites-comparison-featured-image.jpg",
+								"mime": "image/jpg"
+							},
+							"alt": "Freedom of choice in Nextcloud Office: powered by Euro-Office, Collabora, and Thinkfree Office"
+						}
+					}
+				},
+				"link": "https://nextcloud.com/blog/nextcloud-office-powered-by-euro-office-collabora-thinkfree-office/?utm_source=appstore_discover_section_carousel"
+			}
+			
+			
+			
+			
+		]
+	}
+]
